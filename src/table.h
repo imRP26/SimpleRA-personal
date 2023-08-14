@@ -1,4 +1,5 @@
 #include "cursor.h"
+#include <unordered_set>
 
 enum IndexingStrategy
 {
@@ -18,7 +19,7 @@ enum IndexingStrategy
  */
 class Table
 {
-    vector<unordered_set<int>> distinctValuesInColumns;
+    vector<unordered_set<int> > distinctValuesInColumns;
 
 public:
     string sourceFileName = "";

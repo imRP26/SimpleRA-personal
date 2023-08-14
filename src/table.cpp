@@ -107,7 +107,7 @@ bool Table::blockify()
     ifstream fin(this->sourceFileName, ios::in);
     string line, word;
     vector<int> row(this->columnCount, 0);
-    vector<vector<int>> rowsInPage(this->maxRowsPerBlock, row);
+    vector<vector<int> > rowsInPage(this->maxRowsPerBlock, row);
     int pageCounter = 0;
     unordered_set<int> dummy;
     dummy.clear();

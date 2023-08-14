@@ -85,7 +85,7 @@ Page BufferManager::insertIntoPool(string tableName, int pageIndex)
  * @param rows 
  * @param rowCount 
  */
-void BufferManager::writePage(string tableName, int pageIndex, vector<vector<int>> rows, int rowCount)
+void BufferManager::writePage(string tableName, int pageIndex, vector<vector<int> > rows, int rowCount)
 {
     logger.log("BufferManager::writePage");
     Page page(tableName, pageIndex, rows, rowCount);

@@ -67,7 +67,7 @@ vector<int> Page::getRow(int rowIndex)
     return this->rows[rowIndex];
 }
 
-Page::Page(string tableName, int pageIndex, vector<vector<int>> rows, int rowCount)
+Page::Page(string tableName, int pageIndex, vector<vector<int> > rows, int rowCount)
 {
     logger.log("Page::Page");
     this->tableName = tableName;

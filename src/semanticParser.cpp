@@ -1,4 +1,4 @@
-#include"global.h"
+#include "global.h"
 
 bool semanticParse(){
     logger.log("semanticParse");
