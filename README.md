@@ -1,5 +1,17 @@
 # SimpleRA
 
+## RP's changes
+I resolved some of the errors that I was getting for ```make``` for the following specs of my system :-
+- M1 PRO 13.4.1(c)
+- ```gcc --version``` -> 
+  - ```Apple clang version 14.0.3 (clang-1403.0.22.14.1)```<br>
+    ```Target: arm64-apple-darwin22.5.0```<br>
+    ```Thread model: posix```<br>
+    ```InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin```
+- ```which gcc```
+  - -> ```/usr/bin/gcc```  
+#### Do give this repo a mention (a star would be appreciated) if it helped you in any way!! :)
+
 ## Compilation Instructions
 
 We use ```make``` to compile all the files and creste the server executable. ```make``` is used primarily in Linux systems, so those of you who want to use Windows will probably have to look up alternatives (I hear there are ways to install ```make``` on Windows). To compile
