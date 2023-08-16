@@ -8,8 +8,26 @@ I resolved some of the errors that I was getting for ```make``` for the followin
     ```Target: arm64-apple-darwin22.5.0```<br>
     ```Thread model: posix```<br>
     ```InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin```
-- ```which gcc```
-  - -> ```/usr/bin/gcc```  
+- ```which gcc``` ->
+  -  ```/usr/bin/gcc```
+- ```brew info gcc``` ->
+  - ```==> gcc: stable 13.1.0 (bottled), HEAD```<br>
+    ```GNU compiler collection```<br>
+    ```https://gcc.gnu.org/```<br>
+    ```/opt/homebrew/Cellar/gcc/13.1.0 (1,489 files, 388.9MB) *```<br>
+    ```Poured from bottle using the formulae.brew.sh API on 2023-08-08 at 11:57:57```<br>
+    ```From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/gcc.rb```<br>
+    ```License: GPL-3.0-or-later with GCC-exception-3.1```<br>
+    ```==> Dependencies```<br>
+    ```Required: gmp ✔, isl ✔, libmpc ✔, mpfr ✔, zstd ✔```<br>
+    ```==> Options```<br>
+    ```--HEAD```<br>
+	  ```Install HEAD version```<br>
+    ```==> Analytics```<br>
+    ```install: 96,154 (30 days), 279,984 (90 days), 446,915 (365 days)```<br>
+    ```install-on-request: 46,436 (30 days), 142,950 (90 days), 226,195 (365 days)```<br>
+    ```build-error: 129 (30 days)```<br>  
+
 #### Do give this repo a mention (a star would be appreciated) if it helped you in any way!! :)
 
 ## Compilation Instructions
